@@ -1,0 +1,60 @@
+*{ margin:0px;  
+    padding:0px;
+    font-family:arial;
+    background: cadetblue;
+ 
+} 
+body{
+width:1024px;
+margin:auto;
+}
+
+header{
+    width:1024px;
+    height:50px;
+    position:relative;
+    background:red;    
+} 
+ .slide{
+ width:1024px;
+ height:400px;
+ position:relative;
+ background:green;
+ margin:10px 0px 10px 0px;
+}
+
+ nav{
+width:1024px;
+height:50px;
+background:blue;
+}
+section{
+ width:1024px;
+ margin:auto;
+}
+
+section div{
+   width:161px;
+   height:217px;
+   float:left;
+   position:relative;
+    background:black;
+    opacity: 0.2;
+    margin:10px 10px 10px 0px;
+overflow: scroll;
+        
+}
+section div:nth-child(6){
+    margin:10px 0px 10px 7px;
+    float:right;
+}
+
+footer{ 
+     width:1024px;
+    height:150px;
+    margin:auto;
+    position:relative;
+    clear:both;
+  background:black;
+   margin:0px 0px 10px 0px;
+}
